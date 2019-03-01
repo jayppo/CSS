@@ -1,4 +1,5 @@
 :root {
+    --color-0: #ffffff;
     --color-1: #ffffff;
     --color-2: #e3f1af;
     --color-3: #4bc84b;
@@ -90,4 +91,15 @@ header > #header-area > #header-search-link { color: var(--color-4); }
     75% { background-color: #202082; }
     90% { background-color: #6b2aff; }
     100% { background-color: #e82aff; }
+}
+
+@keyframes rainbowLinkBG {
+    000% { background-color: var(--color-0); }
+    015% { background-color: var(--color-1); }
+    030% { background-color: var(--color-2); }
+    045% { background-color: var(--color-3); }
+    060% { background-color: var(--color-4); }
+    075% { background-color: var(--color-5); }
+    090% { background-color: var(--color-4); }
+    100% { background-color: var(--color-3); }
 }
