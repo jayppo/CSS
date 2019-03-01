@@ -13,7 +13,7 @@
   --logo-Width: 158px;
   --logo-Height: 50px;
 
-  --icon-URL: url("https://jayppo.github.io/CSS/source/icon.png");
+  --icon-URL: url("https://jayppo.github.io/CSS/source/icon_effect.png");
 }
 
 /* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css); */
@@ -164,6 +164,6 @@ header #header-bar > .row {
     100% { background-color: var(--color-5); }
 }
 @keyframes anim_hovered_background {
-    0% { background-color: var(--color-1); }
-    1% { background-color: var(--color-5); }
+    0% { background-color: var(--color-0); }
+    1% { background-color: var(--color-3); }
 }
