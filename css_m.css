@@ -1,15 +1,3 @@
-:root {
-    --color-0: #ffffff;
-    --color-1: #ffffff;
-    --color-2: #e3f1af;
-    --color-3: #4bc84b;
-    --color-4: #71da35;
-    --color-5: #cff1af;
-
-    --logo-URL: url("https://jayppo.github.io/CSS/source/CI.png");
-    --logo-size: 90px 32px;
-}
-
 /* main body */
 #main-content, body, footer {
   background: var(--color-2) !important;
