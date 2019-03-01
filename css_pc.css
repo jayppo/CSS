@@ -1,3 +1,4 @@
+/* 변수 */
 :root {
   --color-0: #ffffff;
 
@@ -16,17 +17,12 @@
   --sub-comment: "명 힘내요!";
 }
 
-@import url(https://jayppo.github.io/CSS/font.css);
-
-/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css); */
-
 html {
     height:auto !important;
     background: linear-gradient(to bottom, var(--color-1), var(--color-2), var(--color-3));
 }
 body {
     background: transparent;
-    /* font-family: 'Spoqa Han Sans';  */
 }
 
 /* logo */
