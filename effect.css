@@ -1,7 +1,7 @@
 /* colors */
 
 :root {
-  --bg-color: #ffffff;
+  --color-0: #ffffff;
 
   --color-1: #425d61;
   --color-2: #b4c9fe;
@@ -93,7 +93,7 @@ header #header-bar > .row {
 #main #main-content > div.frame {
     box-shadow: 3px 0px 10px rgba(0, 02, 22, 0.2);
     border-radius: 0 0 15px 15px;
-    background: -webkit-linear-gradient(135deg, var(--color-1) 0%,var(--color-1) 99%, var(--color-5) 99%,var(--color-3) 100%);
+    background-color: var(--color-0);
 }
 
 /* notice post mouse hovered */
