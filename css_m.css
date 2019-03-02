@@ -57,8 +57,8 @@ header > #header-area > #header-bar-link {
 
 /* replay area */
 #article-reply-area > .header h5 { color: var(--color-2); }
-#article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-4) !important; }
-#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged { color: var(--color-5) !important; }
+#article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-5) !important; }
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged { color: var(--color-4) !important; }
 
 /* top search bar */
 header > #header-search-bar #header-search-input { border: 2px solid var(--color-5); }
