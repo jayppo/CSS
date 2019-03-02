@@ -40,12 +40,12 @@ header #header-bar #header-top-notice strong.notice-badge {
 /* tgd menu box */
 #main .menu-wrapper > .header {
     background: -webkit-linear-gradient(45deg, var(--color-3) 10%,var(--color-5) 100%);
-    color: var(--color-1); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
+    color: var(--color-0); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
 #main .menu-wrapper > a > em { color: var(--color-3);}
 #main .menu-wrapper > a > i.fa.fa-square { color:var(--color-3); }
 /* 스케줄은 개별적용 */
 #main .menu-wrapper > .header > a {
-  color: var(--color-1);
+  color: var(--color-0);
 }
 
 /* remove nav box border */
