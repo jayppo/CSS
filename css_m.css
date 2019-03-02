@@ -56,8 +56,8 @@ header > #header-area > #header-bar-link {
 .pagination > li > a, .pagination > li > span:hover { color: var(--color-4); }
 
 /* replay area */
-#article-reply-area > .header h5 { color: var(--color-4); }
-#article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-2) !important; }
+#article-reply-area > .header h5 { color: var(--color-2); }
+#article-reply-area #reply-real-area .reply > .reply-header { background: var(--color-4) !important; }
 #article-reply-area #reply-real-area .reply > .reply-header > .reply-writer.logged { color: var(--color-5) !important; }
 
 /* top search bar */
