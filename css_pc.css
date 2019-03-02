@@ -19,8 +19,8 @@ header .row > div:nth-child(1) > a img {
 header #header-bar { margin-top: 0.2em; margin-bottom: 1em; padding-right: 30px; padding-left: 30px; }
 
 /* search box color  */
-header #right-search-form > #right-search-btn { color: var(--color-3); background: transparent; border: none; font-size: 1.4em; }
-header #right-search-form > input[type=text] { position: relative; border: 3px solid var(--color-3); background: var(--color-1); font-size: 1.1em; padding: 0.3em 0.5em; }
+/* header #right-search-form > #right-search-btn { color: var(--color-3); background: transparent; border: none; font-size: 1.4em; } */
+/* header #right-search-form > input[type=text] { position: relative; border: 3px solid var(--color-3); background: var(--color-1); font-size: 1.1em; padding: 0.3em 0.5em; } */
 
 /* header-bar */
 /* header #header-bar > .row { padding-top: 0.3em; padding-bottom: 0.3em; border-top: 4px solid var(--color-4); background: #d4eeff; border-bottom: 2px solid #ebeae8; border-right: 2px solid #ebeae8 } */
