@@ -48,7 +48,7 @@ header > #header-area > #header-bar-link {
 #board-info > a.board-right-menu { max-height: 40px; border: 0px; vertical-align: middle; color: var(--color-3); }
 
 /* button color animations */
-.btn-primary { border: 0px; animation: infinite rainbowLinkBG 3s; }
+.btn-primary { border: 0px; animation: infinite linearLoop 4s; }
 
 .pagination > .active > a, .pagination > .active > a:focus,
 .pagination > .active > a:hover, .pagination > .active > span,
@@ -70,24 +70,16 @@ nav#nav > .nav-header { background: var(--color-4); }
 header > #header-area > #header-search-link { color: var(--color-4); }
 
 /* keyframes */
-@keyframes rainbowLinkBG {
-    0% { background-color: #ff2a2a; }
-    15% { background-color: #ff7a2a; }
-    30% { background-color: #ffc52a; }
-    45% { background-color: #43ff2a; }
-    60% { background-color: #2a89ff; }
-    75% { background-color: #202082; }
-    90% { background-color: #6b2aff; }
-    100% { background-color: #e82aff; }
-}
-
-@keyframes rainbowLinkBG {
+@keyframes linearLoop {
     000% { background-color: var(--color-0); }
-    015% { background-color: var(--color-1); }
-    030% { background-color: var(--color-2); }
-    045% { background-color: var(--color-3); }
+    010% { background-color: var(--color-1); }
+    020% { background-color: var(--color-2); }
+    030% { background-color: var(--color-3); }
+    040% { background-color: var(--color-4); }
+    050% { background-color: var(--color-5); }
     060% { background-color: var(--color-4); }
-    075% { background-color: var(--color-5); }
-    090% { background-color: var(--color-4); }
-    100% { background-color: var(--color-3); }
+    070% { background-color: var(--color-3); }
+    080% { background-color: var(--color-2); }
+    090% { background-color: var(--color-1); }
+    100% { background-color: var(--color-0); }
 }

@@ -118,23 +118,29 @@ header #header-bar > .row {
 /* keyframe animations */
 @keyframes rainbowLink {
   000% { color: var(--color-0); }
-  015% { color: var(--color-1); }
-  030% { color: var(--color-2); }
-  045% { color: var(--color-3); }
+  010% { color: var(--color-1); }
+  020% { color: var(--color-2); }
+  030% { color: var(--color-3); }
+  040% { color: var(--color-4); }
+  050% { color: var(--color-5); }
   060% { color: var(--color-4); }
-  075% { color: var(--color-5); }
-  090% { color: var(--color-4); }
-  100% { color: var(--color-3); }
+  070% { color: var(--color-3); }
+  080% { color: var(--color-2); }
+  090% { color: var(--color-1); }
+  100% { color: var(--color-0); }
 }
 @keyframes rainbowLinkBG {
   000% { background-color: var(--color-0); }
-  015% { background-color: var(--color-1); }
-  030% { background-color: var(--color-2); }
-  045% { background-color: var(--color-3); }
+  010% { background-color: var(--color-1); }
+  020% { background-color: var(--color-2); }
+  030% { background-color: var(--color-3); }
+  040% { background-color: var(--color-4); }
+  050% { background-color: var(--color-5); }
   060% { background-color: var(--color-4); }
-  075% { background-color: var(--color-5); }
-  090% { background-color: var(--color-4); }
-  100% { background-color: var(--color-3); }
+  070% { background-color: var(--color-3); }
+  080% { background-color: var(--color-2); }
+  090% { background-color: var(--color-1); }
+  100% { background-color: var(--color-0); }
 }
 @keyframes AquaLinkBG {
     0% { background-color: var(--color-5); }
