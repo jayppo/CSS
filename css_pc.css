@@ -43,6 +43,10 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: var(--color-1); padding: 0.45em 1.4em 0.45em 1em; font-weight: bold; border-radius: 10px 10px 0 0;}
 #main .menu-wrapper > a > em { color: var(--color-3);}
 #main .menu-wrapper > a > i.fa.fa-square { color:var(--color-3); }
+/* 스케줄은 개별적용 */
+#main .menu-wrapper > .header > a {
+  color: var(--color-1);
+}
 
 /* remove nav box border */
 header #header-bar > .row,
