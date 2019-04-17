@@ -20,6 +20,10 @@ header > #header-area > #header-bar-link {
     color: var(--color-4);
 }
 
+/* viewers */
+#board-info #viewers-area #viewers:before { content: var(--pre-comment); cursor: text; }
+#board-info #viewers-area #viewers:after { content: var(--sub-comment); cursor : text; }
+
 #header-top-notice a { font-weight: bold; color: var(--color-4) !important; }
 #header-top-notice strong.notice-badge { background: var(--color-4) !important; }
 #header-top-notice strong.notice-badge { padding-left: 0; padding-right: 0; margin-right: -2em; opacity: 0; }
