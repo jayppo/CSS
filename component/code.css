@@ -1,0 +1,16 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css);
+
+@font-face { 
+   font-family: 'NanumSquareRound';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff'); 
+   font-weight: normal; 
+   font-style: normal; 
+}
+
+#article-content-wrapper #article-content strong em,
+#article-content-wrapper #article-content b i
+{
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Fira Code', NanumSquareRound;
+}
